@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Required meta tags; allow us to add new information to our HTML page;
+        'charset... Use this encoding for any text' -->
+    <meta charset="utf-8">
+    <!-- This meta tag focuses on a "mobile first" approach to design. BootStrap optimizes for moblie devices first and scales up as the viewport requires. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- Enable BootStrap's baked in FlexBox capabilities; span the entire height 
+         of the page; span the height of the container to 100% of the viewport -->
+    <div class="container d-flex align-items-center h-100">
+
+      <!-- Place the header, horizontal line and button in a row;
+           use the BootStrap 12 space grid (col-12) to center the header, hor. line and button -->
+      <div class="row">
+        <!-- Centers the text in the middle of the viewport -->
+        <header class="text-center col-12">
+          <!-- The BootStrap class "text-uppercase" to make the string all capital letters -->
+          <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
+        </header>
+
+        <!-- Place some space between the button, horizontal line and the text;
+             center the buffer in the middle of the page -->
+        <div class="buffer col-12"></div>
+
+        <section class="text-center col-12">
+          <!-- Create a horizontal line above the button -->
+          <hr>
+          <!-- The BootStrap button types can be used here 
+          <button class="btn btn-primary">Find Out More</button> -->
+
+          <!-- Use the Bootstrap classes to adjust color and size;
+               set up link to the landing page for the site  -->
+          <a href="https://mailchi.mp/bced7638d213/startup-annulus">
+            <button class="btn btn-primary btn-xl">Find out more</button>
+          </a>
+        </section>
+      </div>  
+    </div>
+  </body>
+</html>
